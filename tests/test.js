@@ -6,4 +6,8 @@ describe('Check caniuse tag', function() {
     it('Should contain a caniuse icon', function() {
         expect(t.querySelector('img').src).toBe('http://caniuse.com/img/favicon-128.png');
     });
+     it('Should contain a caniuse card when clicked', function() {
+     	t.click();
+        expect(t.querySelector('div').classList.contains('caniuse-card')).toBe(true);
+    });
 });
