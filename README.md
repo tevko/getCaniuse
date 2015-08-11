@@ -1,6 +1,8 @@
 getCaniuse
 ---------
 
+[![buld status](https://travis-ci.org/tevko/easyCanvas.svg?branch=master)](https://travis-ci.org/tevko/getCaniuse)
+
 ##What does it do?
 
 It turns Caniuse.com into a plugin that you can use on your website.
