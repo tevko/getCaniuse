@@ -7,7 +7,7 @@ describe('Check caniuse tag', function() {
         expect(t.querySelector('img').src).toBe('http://caniuse.com/img/favicon-128.png');
     });
      it('Should contain a caniuse card when clicked', function() {
-     	jQuery(t).click();
-        expect(t.querySelector('div').classList.contains('caniuse-card')).toBe(true);
+     	$(t).click();
+        expect($(t).find('div').hasClass('caniuse-card')).toBe(true);
     });
 });
