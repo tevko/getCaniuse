@@ -6,7 +6,7 @@
 * Author: Tim Evko
 * https://twitter.com/tevko
 * https://timevko.com
-* https://github.com/tevko/getCaniue
+* https://github.com/tevko/getCaniuse
 * License: MIT
 *
 */
