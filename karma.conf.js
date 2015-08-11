@@ -15,7 +15,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'build/getcaniuse.min.js', 'tests/*.js', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'
+      'build/getcaniuse.min.js', 'tests/*.js'
     ],
 
 
