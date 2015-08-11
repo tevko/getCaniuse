@@ -19,4 +19,4 @@ IE10 and up. For older browsers, the plugin will degrade gracefully by not initi
 
 ##How will this affect performance on my site?
 
-The full caniuse.com database is really just a large JSON file. It doesn't get loaded on your site until a user intentionally clicks on a ``<get-caniuse>`` element.
+The full caniuse.com database is really just a large JSON file. It doesn't get loaded on your site until a user intentionally clicks on a ``<get-caniuse>`` element. Weighs 1.9k minified and gzipped
