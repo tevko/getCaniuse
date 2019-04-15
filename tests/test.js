@@ -1,5 +1,6 @@
 describe('Check caniuse tag', function() {
-  var t = document.createElement('get-caniuse');
+  var t = document.createElement('div');
+  t.setAttribute("data-caniuse");
   t.innerHTML = 'clip-path';
   document.body.appendChild(t);
   CIU.init();

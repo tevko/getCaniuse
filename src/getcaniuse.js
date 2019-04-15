@@ -31,7 +31,7 @@
 
   window.CIU = {
     settings: {
-      elems: 'get-caniuse',
+      elems: '[data-caniuse]',
       cIco: CIUBaseURL + 'img/favicon-128.png',
       CIUData: '',
       dataURL: 'https://raw.githubusercontent.com/Fyrd/caniuse/master/data.json',
